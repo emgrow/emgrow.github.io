@@ -33,7 +33,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
@@ -81,7 +81,15 @@
                                 high-achieving, low-income high school students overcome the barriers they face through college admissions process.
                             </p>
                             <p>
-                                Over the course of the past two summers, I have had the opportunity to intern with Microsoft as a part of the Outlook Desktop team. 
+                                Learn more about Robotic Football club at the University of Notre Dame <a href="https://www3.nd.edu/~rfc/"><u>here</u></a>.
+                                <br />
+                                Learn more about Matriculate <a href="https://www.matriculate.org/"><u>here</u></a>.
+                            </p>
+
+                            <p>
+                                Over the course of the past two summers, I have had the opportunity to intern with Microsoft as a part of the Outlook Desktop team.
+                                Through these experiences I have been able to connect with many full-time employees and fellow colleges students who share my passion
+                                for increasing diversity, inclusion, and equity in technology.
                                 I am very excited to be returning to the team as a full-time Software Engineer after graduation this spring.
                             </p>
                         </div>
@@ -143,8 +151,8 @@
                             <h3 class="mb-0">From A2D Software Development Service Project</h3>
                             <div class="subheading mb-3">Pariveda Solutions</div>
                             <p>
-                                I had the opportunity to collaborate with a group of Notre Dame students and the From A2D CEO David Hain to develop an accessible platform for inmates and members of the homeless
-                                community to receive addiction treatment.
+                                I had the opportunity to volunteer alongside fellow Notre Dame students and to collaborate with Pariveda engineers and the From A2D CEO David Hain to develop accessible
+                                mobile and web-based platforms for inmates and members of the homeless community to receive addiction treatment.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2021 - February 2021</span></div>
@@ -162,15 +170,97 @@
             <hr class="m-0" />
             <!-- Projects -->
             <hr class="m-0" />
-            <!-- Projects -->
-            <!--<section class="resume-section" id="projects">
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Projects</h2>
-                    <div class="grid-box">
-                        <img src="assets/ndrfc.jpg"/>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">QB Code Base Re-write</h3>
+                            <div class="subheading mb-3">Robotic Football Club</div>
+                            <p>
+                                For this project, I managed a team of 7 software developers to re-write the quarterback code base. The QB robot was recently redesigned an and upgraded from running on an Arduino to run on a RaspberryPi. The change in microprocessor meant the code base needed to 
+                                be translated from Arduino C into Python. The main goals of the project were to re-write the code base in order to maintain all pre-existing functionality as well as 
+                                as take advantage of any areas for improvement. For example, the newly developed code base is much more modular, allowing for future developers in the club to build upon our ideas in future projects.
+                            </p>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - May 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Stereoscopic Targetting Project</h3>
+                            <div class="subheading mb-3">Robotic Football Club</div>
+                            <p>
+                                In the sport of Robotic Football, completing a pass from the quarterback to another player is extremely difficult. The goal of the Steroscopic Targetting Project
+                                was to increase the accuracy of the QB and eventually complete more passes in a game setting. This project was implemented by installing an additional camera on the QB robot (bringing the total to 2 cameras).
+                                When the QB needed to throw a pass, both cameras would then track the receiving robot by searching for a color block in the field of view. The relative position from each camera is then used to determine the acual 
+                                position of the receiving robot from the QB. This project is currently being expanded upon to allow for computer vision capabilities for other robots on the team
+                            </p>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - May 2020</span></div>
+                    </div>
+                    <!--<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Spot Passing Project</h3>
+                            <div class="subheading mb-3">Robotic Football Club</div>
+                            <p>
+
+                            </p>
+
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2018 - April 2019</span></div>
+                    </div>-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Malware Detection Project</h3>
+                            <div class="subheading mb-3">Data Science</div>
+                            <p>
+                                Malware is often transported onto personal devices through malicious links. The goal of the Malware Detection Project was to develop a set of classifiers capable of 
+                                utilizing known information on given links to determine whether the link was malicious or benign. This project used the dataset found 
+                                <a href="https://data.mendeley.com/datasets/gdx3pkwp47/2"><u>here</u></a> to train and test the classifiers based on features such as URL length, IP Address of the host,
+                                geographic location of the host, length of the JavaScript code of the webpage, etc.
+                                The classifiers developed include multiple KNN Classifiers with varied K sizes, a Random Forrest Classifier, an ID3 Decision Tree, and a Convolutional Neural Network.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - December 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Handwritten Digit Recognition Project</h3>
+                            <div class="subheading mb-3">Computer Vision</div>
+                            <p>The goal of the Handwritten digit recognition project was to develop a program that locates and classifies digits written by hand within an image frame
+                             using either still input images or a live webcam. The program was deveoped in python and a convolutional nerual network (CNN) was trained and tested on large datasets found 
+                            <a href="http://archive.ics.uci.edu/ml/machine-learning-databases/optdigits/"><u>here</u></a>. When using the testing set provided at the previous link, the classifier performed with 98.7% accuracy.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2021 - December 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">"Golden Dorm" Hybrid Mobile App</h3>
+                            <div class="subheading mb-3">Mobile Computing</div>
+                            <p>
+                                I partnered with two fellow CS students at ND to develop Golden Dorm. The app was created using Flutter and was supported by a Firebase backend.
+                                The goal of the app was to create a tool for Residential Life that could help bring together communities on Notre Dame's campus. With features to
+                                allow for user authentication, calendar appointment creation, dorm wide chat, dorm wide forum, and building specific amenity reservations, Golden Dorm 
+                                centralizes all communication methods currently used by our campus.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2021 - May 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Minorities in the Private Sector Website</h3>
+                            <div class="subheading mb-3">Programming Paradigms</div>
+                            <p>
+                                For this project, I collaborated with a fellow CS student in my class at ND to develop a website that provided intuitive tools that highlighted the disparity
+                                in representation of women and minorities in the private sector. The tool ran on a JavaScript and HTML website hosted by a CherryPy server and Python data library and API.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - December 2020</span></div>
                     </div>
                 </div>
-            </section>-->
+            </section>
             <!-- Organize Projects into Squares -->
             <!-- Hover for more info to appear about project -->
             <!-- Click on the square to link to new webpage -->
@@ -182,14 +272,16 @@
             <!-- Science and Engineering Scholars -->
             <!--</section>-->
             <!-- PROJECTS TO ADD
-                * RFC
-                * networks projects
-                * paradigms projects
-                * OS projects??
-                * Matriculate
-                * from AtoD
-                * Microsoft
-        -->
+            * RFC
+            * data science project
+            * cv project
+            * networks projects
+            * paradigms projects
+            * OS projects??
+            * Matriculate
+            * from AtoD
+            * Microsoft
+    -->
 
 
 
@@ -266,6 +358,18 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-pencil-alt" style="color:darkslategray"></i></span>
                             Computer Security
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-pencil-alt" style="color:darkslategray"></i></span>
+                            Human Computer Interaction
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-pencil-alt" style="color:darkslategray"></i></span>
+                            Algotithms
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-pencil-alt" style="color:darkslategray"></i></span>
+                            Data Science
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-pencil-alt" style="color:darkslategray"></i></span>
